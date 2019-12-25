@@ -1,0 +1,44 @@
+.header{
+  background : linear-gradient(to right, red, yellow,blue);
+  display : flex;
+  justify-content: center;
+  border-color: orange;
+  color : blue;
+}
+.header2{
+  background : linear-gradient(to left, red, magenta, yellow);
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border-color: green;
+}
+.header3{
+  background : radial-gradient( gold, red);
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-color: magenta;
+  border: solid;
+}
+.header4{
+  background : yellow;
+  display : flex;
+  flex-wrap: wrap;
+  border: solid;
+  color : purple;
+}
+.itme{
+  background : linear-gradient(to right, turquoise, pink, orange, yellow);
+  border : solid;
+  padding-left : 515px;
+
+}
+.head{
+  background : linear-gradient(to right, green, red, orange, blue);
+  border : solid;
+}
+.site-description{
+  display : flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
